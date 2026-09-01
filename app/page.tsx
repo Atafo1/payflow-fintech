@@ -15,14 +15,23 @@ export default function Home() {
   return (
     <>
       <Navbar dark />
+
       <section className="relative overflow-hidden bg-[#080b20] px-5 pt-20 lg:px-10">
+        <div className="mx-auto max-w-7xl px-6 pt-4">
+          <div className="rounded-lg border border-border bg-muted/50 px-4 text-white/70 py-3 text-center text-sm ">
+            <span className="">Portfolio Demo:</span>{" "}
+            Payflow is a fictional fintech interface. No real banking, payments,
+            or financial services are provided.
+          </div>
+        </div>
+
         <div className="hero-glow absolute -left-32 top-10 h-96 w-96 rounded-full bg-[#6435f4]/30 blur-[120px]" />
         <div className="hero-glow absolute right-0 top-40 h-80 w-80 rounded-full bg-[#3416b3]/40 blur-[110px]" />
         <div className="relative mx-auto grid max-w-[1280px] items-center gap-12 py-16 lg:grid-cols-2 lg:py-24">
           <div>
             <div className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1.5 text-[10px] font-medium text-white/70">
-              <span className="h-1.5 w-1.5 rounded-full bg-[#8d6dff]" /> Now
-              live in 36+ countries
+              <span className="h-1.5 w-1.5 rounded-full bg-[#8d6dff]" /> Fintech
+              UI concept for modern digital payments
             </div>
             <h1 className="mt-6 text-5xl font-bold leading-[1.02] tracking-[-.05em] text-white sm:text-7xl">
               Smart finance.
@@ -95,7 +104,7 @@ export default function Home() {
           <SectionHeading
             eyebrow="How it works"
             title="Get started in minutes, not days"
-            description="Open your account in four simple steps and start moving money the moment you're approved."
+            description="Explore the demo in four simple steps and start moving money the moment you're approved."
             center
           />
           <div className="mt-16 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
@@ -107,17 +116,17 @@ export default function Home() {
               ],
               [
                 "02",
-                "Verify Identity",
+                "Identy Verification-Demo",
                 "Securely verify your identity with a quick photo ID check.",
               ],
               [
                 "03",
-                "Add Money",
+                "Add Money-Demo",
                 "Top up instantly from your bank or another card, for free.",
               ],
               [
                 "04",
-                "Start Banking",
+                "Explore Payflow",
                 "Send, spend, save, and grow — all from one dashboard.",
               ],
             ].map(([step, title, desc]) => (
@@ -143,7 +152,7 @@ export default function Home() {
           <div>
             <SectionHeading
               eyebrow="Global Payments"
-              title="Send money across borders with ease"
+              title="Send money-Demo across borders with ease"
               description="Transfer funds to 36+ countries at the real exchange rate. No hidden fees, no surprises — just fast, transparent transfers."
             />
             <ul className="mt-8 space-y-4">

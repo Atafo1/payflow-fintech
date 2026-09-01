@@ -2,8 +2,8 @@ import './globals.css';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Payflow — Smart finance. Seamless payments.',
-  description: 'A polished fintech experience for moving, managing, and growing your money.',
+  title: 'Payflow — Fintech UI Demo',
+  description: "A fictional fintech interface built as a portfolio project using Next.js, TypeScript, and Tailwind CSS.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
