@@ -74,7 +74,7 @@ export default function Home() {
                     Payment sent
                   </p>
                   <p className="text-[10px] text-white/50">
-                    $1,250.00 to Sarah J.
+                    $***.** to Sarah J.
                   </p>
                 </div>
               </div>
@@ -182,13 +182,13 @@ export default function Home() {
           </div>
           <div className="rounded-3xl border border-[#e7e6f3] bg-white p-7 shadow-[0_25px_60px_rgba(31,25,87,.07)]">
             <div className="flex items-center justify-between">
-              <p className="text-sm font-bold text-[#161a35]">Send money</p>
+              <p className="text-sm font-bold text-[#161a35]">Demo Transfer</p>
               <span className="rounded-full bg-[#f0eeff] px-3 py-1 text-[10px] font-semibold text-[#673af2]">
-                Fast transfer
+                Fast transfer-Demo
               </span>
             </div>
             <div className="mt-5 rounded-2xl border border-[#eeeaf6] p-4">
-              <p className="text-[10px] text-[#8a8fa2]">You send</p>
+              <p className="text-[10px] text-[#8a8fa2]">Demo-You send</p>
               <div className="mt-1 flex items-center justify-between">
                 <span className="text-2xl font-bold text-[#161a35]">
                   1,250.00

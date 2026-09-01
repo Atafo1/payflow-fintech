@@ -312,10 +312,10 @@ export function PageHero({
 
 export function PhoneMockup() {
   const rows = [
-    ["Sarah Johnson", "-$250.00"],
-    ["Michael Lee", "+$550.00"],
-    ["Netflix Subscription", "-$15.99"],
-    ["Spotify Premium", "-$9.99"],
+    ["Sarah Johnson", "-$***.**"],
+    ["Michael Lee", "+$***.**"],
+    ["Netflix Subscription", "-$***.**"],
+    ["Spotify Premium", "-$***.**"],
   ];
   return (
     <div className="phone-wrap animate-float">
@@ -329,8 +329,8 @@ export function PhoneMockup() {
           <span>Hello, David ✦</span>
           <span className="rounded-full bg-white/10 px-2 py-1">⌕</span>
         </div>
-        <p className="mt-7 text-[8px] text-white/45">Total Balance</p>
-        <p className="mt-1 text-2xl font-semibold">$24,680.50</p>
+        <p className="mt-7 text-[8px] text-white/45">Demo Balance</p>
+        <p className="mt-1 text-2xl font-semibold">$****.**</p>
         <div className="mt-5 grid grid-cols-4 gap-2 text-center text-[7px] text-white/60">
           {[
             ["↗", "Send"],
@@ -381,7 +381,7 @@ export function PhoneMockup() {
         </div>
         <div className="mt-3 flex justify-between text-[10px] text-white/65">
           <span>DAVID MORGAN</span>
-          <strong>VISA</strong>
+          <strong>VISA-DEM0</strong>
         </div>
       </div>
     </div>
