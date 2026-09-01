@@ -5,8 +5,8 @@ import { Check } from 'lucide-react';
 import { Navbar, Footer, PageHero, CTA } from '@/components/site';
 
 const plans = [
-  { name: 'Starter', monthly: 0, yearly: 0, desc: 'Perfect for getting started with everyday banking.', features: ['Free instant transfers','Virtual card included','Basic spending insights','24/7 chat support'], highlight: false },
-  { name: 'Pro', monthly: 9.99, yearly: 95.90, desc: 'For individuals who want more from their money.', features: ['Everything in Starter','Physical metal card','Advanced insights & budgets','Unlimited global transfers','Priority support'], highlight: true },
+  { name: 'Starter', monthly: 0, yearly: 0, desc: 'Perfect for getting started with everyday banking.', features: ['Free instant transfer-Demos','Virtual card included','Basic spending insights','24/7 chat support'], highlight: false },
+  { name: 'Pro', monthly: 9.99, yearly: 95.90, desc: 'For individuals who want more from their money.', features: ['Everything in Starter','Physical metal card','Advanced insights & budgets','Unlimited global transfer-Demos','Priority support'], highlight: true },
   { name: 'Business', monthly: 29.99, yearly: 287.90, desc: 'Built for teams and growing businesses.', features: ['Everything in Pro','Multi-user access','Automated payouts','Expense management','Dedicated account manager'], highlight: false },
 ];
 
@@ -42,7 +42,7 @@ export default function PricingPage() {
               <table className="w-full text-sm">
                 <thead className="bg-[#f7f6fc] text-left text-xs text-[#767b8f]"><tr><th className="p-4 font-semibold">Feature</th><th className="p-4 text-center font-semibold">Starter</th><th className="p-4 text-center font-semibold">Pro</th><th className="p-4 text-center font-semibold">Business</th></tr></thead>
                 <tbody className="divide-y divide-[#e7e6f3]">
-                  {[['Instant transfers','✓','✓','✓'],['Virtual card','✓','✓','✓'],['Physical card','—','✓','✓'],['Spending insights','Basic','Advanced','Advanced'],['Global transfers','—','Unlimited','Unlimited'],['Multi-user access','—','—','✓'],['Automated payouts','—','—','✓'],['Dedicated manager','—','—','✓']].map(([f,a,b,c]) => (
+                  {[['Instant transfer-Demos','✓','✓','✓'],['Virtual card','✓','✓','✓'],['Physical card','—','✓','✓'],['Spending insights','Basic','Advanced','Advanced'],['Global transfer-Demos','—','Unlimited','Unlimited'],['Multi-user access','—','—','✓'],['Automated payouts','—','—','✓'],['Dedicated manager','—','—','✓']].map(([f,a,b,c]) => (
                     <tr key={f}><td className="p-4 text-[#4b5163]">{f}</td><td className="p-4 text-center text-[#4b5163]">{a}</td><td className="p-4 text-center text-[#4b5163]">{b}</td><td className="p-4 text-center text-[#4b5163]">{c}</td></tr>
                   ))}
                 </tbody>

@@ -2,7 +2,7 @@ import './globals.css';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Payflow — Fintech UI Demo',
+  title: 'Payflow —  UI Demo',
   description: "A fictional fintech interface built as a portfolio project using Next.js, TypeScript, and Tailwind CSS.",
 };
 

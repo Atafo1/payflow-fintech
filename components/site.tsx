@@ -452,7 +452,7 @@ export function Stats() {
 
 export const featureData = [
   [
-    "Instant Transfers",
+    "Instant transfer-Demos",
     "Send and receive money instantly to anyone, anywhere.",
     Send,
   ],

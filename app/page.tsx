@@ -41,8 +41,8 @@ export default function Home() {
               <span className="text-[#b79bff]">Limitless possibilities.</span>
             </h1>
             <p className="mt-7 max-w-[480px] text-base leading-7 text-white/80">
-              Payflow brings payments, cards, savings, and global transfers into
-              one beautiful app — built for people and businesses who move fast.
+              Payflow is a modern fintech dashboard template designed to demonstrate payment, 
+              wallet, and financial-management interfaces.
             </p>
             <div className="mt-9 flex flex-wrap gap-3">
               <Link
@@ -92,7 +92,7 @@ export default function Home() {
           <SectionHeading
             eyebrow="Features"
             title="Everything you need in one powerful platform"
-            description="From instant transfers to smart insights, Payflow replaces a wallet of apps with a single, beautifully designed financial home."
+            description="From instant transfer-Demos to smart insights, Payflow replaces a wallet of apps with a single, beautifully designed financial home."
             center
           />
           <FeatureGrid />
@@ -111,23 +111,23 @@ export default function Home() {
             {[
               [
                 "01",
-                "Create Account",
-                "Sign up in under 3 minutes with just your email and phone number.",
+                "Explore Demo ",
+                " Browse the sample dashboard without creating an account or submitting personal information."
               ],
               [
                 "02",
-                "Identy Verification-Demo",
-                "Securely verify your identity with a quick photo ID check.",
+                "Identy Verification UI",
+                "Sample interface demonstrating a KYC verification workflow.",
               ],
               [
                 "03",
-                "Add Money-Demo",
-                "Top up instantly from your bank or another card, for free.",
+                "Demo Top-Up ",
+                "Sample interface demonstrating a wallet funding experience.",
               ],
               [
                 "04",
                 "Explore Payflow",
-                "Send, spend, save, and grow — all from one dashboard.",
+                "All your financial tools in one intuitive dashboard.",
               ],
             ].map(([step, title, desc]) => (
               <div
@@ -153,14 +153,15 @@ export default function Home() {
             <SectionHeading
               eyebrow="Global Payments"
               title="Send money-Demo across borders with ease"
-              description="Transfer funds to 36+ countries at the real exchange rate. No hidden fees, no surprises — just fast, transparent transfers."
+              description="transfer-Demo funds to 36+ countries at the real exchange rate. No hidden fees, no surprises — just fast, transparent transfer-Demos."
             />
             <ul className="mt-8 space-y-4">
               {[
-                "Real exchange rate, every time",
-                "Transfers arrive in minutes, not days",
-                "Zero hidden fees on global payments",
-                "Track every transfer in real time",
+                " Live-rate UI preview or Exchange rate preview",
+                " Clear fee breakdown",
+                " Transfer status tracking",
+                " Demo verification complete",
+                " Identity verification interface"  
               ].map((t) => (
                 <li
                   key={t}
@@ -182,9 +183,9 @@ export default function Home() {
           </div>
           <div className="rounded-3xl border border-[#e7e6f3] bg-white p-7 shadow-[0_25px_60px_rgba(31,25,87,.07)]">
             <div className="flex items-center justify-between">
-              <p className="text-sm font-bold text-[#161a35]">Demo Transfer</p>
+              <p className="text-sm font-bold text-[#161a35]">Demo transfer-Demo</p>
               <span className="rounded-full bg-[#f0eeff] px-3 py-1 text-[10px] font-semibold text-[#673af2]">
-                Fast transfer-Demo
+                Fast transfer-Demo-Demo
               </span>
             </div>
             <div className="mt-5 rounded-2xl border border-[#eeeaf6] p-4">
@@ -218,12 +219,12 @@ export default function Home() {
                 </p>
               </div>
               <div className="rounded-xl bg-[#f7f6fc] p-3">
-                <p className="text-[10px] text-[#8a8fa2]">Transfer fee</p>
+                <p className="text-[10px] text-[#8a8fa2]">transfer-Demo fee</p>
                 <p className="mt-1 font-semibold text-[#161a35]">$0.00</p>
               </div>
             </div>
             <div className="mt-5 rounded-xl bg-[#f7f6fc] p-4">
-              <p className="text-[10px] text-[#8a8fa2]">Recent transfers</p>
+              <p className="text-[10px] text-[#8a8fa2]">Recent transfer-Demos</p>
               {[
                 ["To Sarah J.", "EUR · 1,168.32"],
                 ["To Marco R.", "GBP · 980.40"],

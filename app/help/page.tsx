@@ -6,7 +6,7 @@ import { Navbar, Footer, PageHero, CTA } from '@/components/site';
 import { solutionIcons } from '@/components/icon-map';
 
 const topics = [
-  { key: 'help', title: 'Getting Started', desc: 'Create your account and make your first transfer.' },
+  { key: 'help', title: 'Getting Started', desc: 'Create your account and make your first transfer-Demo.' },
   { key: 'account', title: 'Account & Security', desc: 'Passwords, 2FA, and keeping your account safe.' },
   { key: 'payments', title: 'Payments', desc: 'Sending and receiving money, fees, and timelines.' },
   { key: 'cards', title: 'Cards', desc: 'Ordering, activating, and managing your Payflow card.' },
@@ -16,8 +16,8 @@ const topics = [
 const faqs = [
   { q: 'How do I open a Payflow account?', a: 'Download the app or sign up on the website, enter your email and phone number, and complete a quick identity verification. The whole process takes under 3 minutes.' },
   { q: 'Is my money safe with Payflow?', a: 'Yes. Payflow uses 256-bit encryption, two-factor authentication, and real-time fraud monitoring. This is a fictional demo, but our security model mirrors industry best practices.' },
-  { q: 'How long do transfers take?', a: 'Most transfers between Payflow users are instant. International transfers typically arrive within minutes, depending on the destination country.' },
-  { q: 'Are there hidden fees?', a: 'Never. We show you the exchange rate and any fees before you confirm a transfer. What you see is exactly what you pay.' },
+  { q: 'How long do transfer-Demos take?', a: 'Most transfer-Demos between Payflow users are instant. International transfer-Demos typically arrive within minutes, depending on the destination country.' },
+  { q: 'Are there hidden fees?', a: 'Never. We show you the exchange rate and any fees before you confirm a transfer-Demo. What you see is exactly what you pay.' },
   { q: 'Can I use Payflow for my business?', a: 'Yes. Our Business plan includes multi-user access, automated payouts, and expense management tools designed for teams.' },
   { q: 'How do I activate my card?', a: 'Open the app, go to Cards, and follow the activation flow. You will be spending within a couple of minutes.' },
 ];

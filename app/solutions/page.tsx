@@ -4,9 +4,9 @@ import { Navbar, Footer, PageHero, SectionHeading, CTA, DashboardMockup } from '
 import { solutionIcons } from '@/components/icon-map';
 
 const solutions = [
-  { key: 'personal', title: 'Personal Banking', desc: 'A modern account for everyday life. Instant transfers, smart insights, and a beautiful card that works everywhere.', points: ['Free instant transfers','Smart spending insights','Virtual & physical cards'], cta: 'Open an account' },
+  { key: 'personal', title: 'Personal Banking', desc: 'A modern account for everyday life. Instant transfer-Demos, smart insights, and a beautiful card that works everywhere.', points: ['Free instant transfer-Demos','Smart spending insights','Virtual & physical cards'], cta: 'Open an account' },
   { key: 'business', title: 'Business Banking', desc: 'Run your business finances from one dashboard. Issue cards, automate payouts, and track every dollar.', points: ['Multi-user access','Automated payouts','Expense tracking'], cta: 'Get business account' },
-  { key: 'global', title: 'Global Payments', desc: 'Send and receive money across 36+ countries at the real exchange rate, with no hidden fees.', points: ['Real exchange rate','Minute-fast transfers','Multi-currency wallets'], cta: 'Send globally' },
+  { key: 'global', title: 'Global Payments', desc: 'Send and receive money across 36+ countries at the real exchange rate, with no hidden fees.', points: ['Real exchange rate','Minute-fast transfer-Demos','Multi-currency wallets'], cta: 'Send globally' },
   { key: 'api', title: 'Partner / API Solutions', desc: 'Build Payflow into your product. Robust APIs and webhooks for payments, payouts, and reconciliation.', points: ['REST API & webhooks','Sandbox environment','GDPR compliant'], cta: 'Explore the API' },
 ] as const;
 
