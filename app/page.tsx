@@ -152,8 +152,8 @@ export default function Home() {
           <div>
             <SectionHeading
               eyebrow="Global Payments"
-              title="Send money-Demo across borders with ease"
-              description="transfer-Demo funds to 36+ countries at the real exchange rate. No hidden fees, no surprises — just fast, transparent transfer-Demos."
+              title="Explore a sample cross-border transfer experience"
+              description="Preview a fictional international transfer interface with sample exchange rates, fees, and transaction data."
             />
             <ul className="mt-8 space-y-4">
               {[
@@ -189,10 +189,10 @@ export default function Home() {
               </span>
             </div>
             <div className="mt-5 rounded-2xl border border-[#eeeaf6] p-4">
-              <p className="text-[10px] text-[#8a8fa2]">Demo-You send</p>
+              <p className="text-[10px] text-[#8a8fa2]">Sample Amount</p>
               <div className="mt-1 flex items-center justify-between">
                 <span className="text-2xl font-bold text-[#161a35]">
-                  1,250.00
+                  0.00
                 </span>
                 <span className="rounded-lg bg-[#f5f4fa] px-3 py-1.5 text-xs font-semibold text-[#161a35]">
                   🇺🇸 USD
@@ -201,10 +201,10 @@ export default function Home() {
             </div>
             <div className="my-2 text-center text-[#9b9fb2]">↓</div>
             <div className="rounded-2xl border border-[#eeeaf6] p-4">
-              <p className="text-[10px] text-[#8a8fa2]">They receive</p>
+              <p className="text-[10px] text-[#8a8fa2]">Sample converted amount</p>
               <div className="mt-1 flex items-center justify-between">
                 <span className="text-2xl font-bold text-[#161a35]">
-                  1,168.32
+                 0.00
                 </span>
                 <span className="rounded-lg bg-[#f5f4fa] px-3 py-1.5 text-xs font-semibold text-[#161a35]">
                   🇪🇺 EUR
@@ -213,22 +213,22 @@ export default function Home() {
             </div>
             <div className="mt-4 grid grid-cols-2 gap-3 text-xs">
               <div className="rounded-xl bg-[#f7f6fc] p-3">
-                <p className="text-[10px] text-[#8a8fa2]">Exchange rate</p>
+                <p className="text-[10px] text-[#8a8fa2]">Sample exchange rate</p>
                 <p className="mt-1 font-semibold text-[#161a35]">
-                  1 USD = 0.934 EUR
+                  0 USD = 0 EUR
                 </p>
               </div>
               <div className="rounded-xl bg-[#f7f6fc] p-3">
-                <p className="text-[10px] text-[#8a8fa2]">transfer-Demo fee</p>
+                <p className="text-[10px] text-[#8a8fa2]">Sample transfer fee</p>
                 <p className="mt-1 font-semibold text-[#161a35]">$0.00</p>
               </div>
             </div>
             <div className="mt-5 rounded-xl bg-[#f7f6fc] p-4">
               <p className="text-[10px] text-[#8a8fa2]">Recent transfer-Demos</p>
               {[
-                ["To Sarah J.", "EUR · 1,168.32"],
-                ["To Marco R.", "GBP · 980.40"],
-                ["To Aisha K.", "USD · 2,500.00"],
+                ["To Sarah J.", "EUR · 0.00"],
+                ["To Marco R.", "GBP · 0.0"],
+                ["To Aisha K.", "USD · 0.00"],
               ].map(([to, val]) => (
                 <div key={to} className="mt-2 flex justify-between text-[11px]">
                   <span className="text-[#5b6178]">{to}</span>
@@ -237,7 +237,7 @@ export default function Home() {
               ))}
             </div>
             <button className="mt-5 w-full rounded-xl bg-[#6335f4] py-3.5 text-xs font-semibold text-white transition hover:bg-[#5125e8]">
-              Send 1,250.00 USD
+              Preview Transfer
             </button>
           </div>
         </div>

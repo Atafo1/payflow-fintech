@@ -18,6 +18,8 @@ import {
   X,
   ChevronDown,
   CheckCircle2,
+  LayoutDashboard,
+  Database,
 } from "lucide-react";
 
 export const links = [
@@ -312,10 +314,10 @@ export function PageHero({
 
 export function PhoneMockup() {
   const rows = [
-    ["Sarah Johnson", "-$***.**"],
-    ["Michael Lee", "+$***.**"],
-    ["Netflix Subscription", "-$***.**"],
-    ["Spotify Premium", "-$***.**"],
+    ["Sarah Johnson", "-$0.00"],
+    ["Michael Lee", "+$0.00"],
+    ["Netflix Subscription", "-$0.00"],
+    ["Spotify Premium", "-$0.00"],
   ];
   return (
     <div className="phone-wrap animate-float">
@@ -365,9 +367,9 @@ export function PhoneMockup() {
           </div>
         ))}
         <div className="mt-5 rounded-xl bg-gradient-to-br from-[#623bf1] to-[#33229d] p-3">
-          <p className="text-[8px] font-semibold">Get your Payflow Card</p>
+          <p className="text-[8px] font-semibold">Sample Payflow Card</p>
           <p className="mt-1 text-[6px] text-white/60">
-            Spend anywhere, anytime.
+            Fictional card interface preview.
           </p>
         </div>
       </div>
@@ -377,11 +379,11 @@ export function PhoneMockup() {
           <span className="text-xl">⌁</span>
         </div>
         <div className="mt-14 text-[11px] text-white/80">
-          ••••　••••　••••　3728
+          ••••　••••　••••　0000
         </div>
         <div className="mt-3 flex justify-between text-[10px] text-white/65">
-          <span>DAVID MORGAN</span>
-          <strong>VISA-DEM0</strong>
+          <span>DEMO USER</span>
+          <strong>DEM0</strong>
         </div>
       </div>
     </div>
@@ -393,8 +395,8 @@ export function DashboardMockup() {
     <div className="dashboard-card">
       <div className="flex items-center justify-between">
         <div>
-          <p className="text-[11px] text-[#81879c]">Total balance</p>
-          <p className="mt-1 text-2xl font-bold text-[#151936]">$24,680.50</p>
+          <p className="text-[11px] text-[#81879c]">Sample balance</p>
+          <p className="mt-1 text-2xl font-bold text-[#151936]">$0.00</p>
         </div>
         <span className="grid h-9 w-9 place-items-center rounded-xl bg-[#eeeaff] text-[#673af2]">
           <WalletCards size={17} />
@@ -425,10 +427,10 @@ export function DashboardMockup() {
 
 export function Stats() {
   const stats = [
-    ["250K+", "Happy users", Users],
-    ["$5B+", "Transactions processed", BarChart3],
-    ["99.9%", "Uptime & reliability", ShieldCheck],
-    ["256-bit", "Bank-level security", LockKeyhole],
+    ["UI Demo", "Fintech dashboard", LayoutDashboard],
+  ["Sample", "Transaction interface", BarChart3],
+  ["100%", "Fictional data", Database],
+  ["Demo", "Financial UI concept", Sparkles],
   ] as const;
   return (
     <div className="relative z-10 mx-auto -mt-7 grid max-w-[1120px] overflow-hidden rounded-2xl border border-white/10 bg-[#151936] shadow-2xl sm:grid-cols-2 lg:grid-cols-4">
@@ -452,33 +454,33 @@ export function Stats() {
 
 export const featureData = [
   [
-    "Instant transfer-Demos",
-    "Send and receive money instantly to anyone, anywhere.",
+    "Transfer UI",
+    "Explore a sample interface for sending and receiving payments.",
     Send,
   ],
   [
-    "Spend Anywhere",
-    "Use your virtual or physical card online and in-store.",
+    "Card Interface",
+    "Preview a fictional virtual and physical card experience.",
     CreditCard,
   ],
   [
-    "Smart Insights",
-    "Track spending, set budgets, and reach your financial goals.",
+    "Financial Insights",
+    "Explore sample spending trends, budgets, and financial visualizations.",
     BarChart3,
   ],
   [
-    "Save & Grow",
-    "Automate your savings and earn competitive interest rates.",
+    "Savings UI",
+    "Preview a sample savings and financial-planning interface.",
     PiggyBank,
   ],
   [
-    "Global Access",
-    "Multi-currency accounts and low FX fees for global transactions.",
+    "Multi-Currency UI",
+    "Explore sample currency conversion and international payment interfaces.",
     Globe2,
   ],
   [
-    "Top Security",
-    "Your money and data are protected with top-tier encryption.",
+    "Security UI",
+    "Preview a fictional security and account-protection interface.",
     ShieldCheck,
   ],
 ] as const;
